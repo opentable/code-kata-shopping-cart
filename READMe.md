@@ -5,7 +5,7 @@ This is a supermarket chekout program which takes in information from the user a
 int countA, countB, countC, countD, total; This line of code is for declaration of all ints
 
 cin >> input; Takes in a value entered by the user and assigns it to the string called input.
-
+```C++
 for (int i = 0; i < input.size(); i++) {
     if (input[i] == 'A' || input[i] == 'a') {
         ++countA;
@@ -17,6 +17,7 @@ for (int i = 0; i < input.size(); i++) {
         ++countD;
     }
 }
+```
 In this for loop, we go through the "input" variable, letter by letter and check if it is equal to one of the options and if so, it increases the counter for that option.
 
 cout << "A: " << countA << endl;
