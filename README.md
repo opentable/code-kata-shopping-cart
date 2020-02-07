@@ -21,3 +21,6 @@ Use the following pricing information:
 For example:
 - `'DABA'` gives `140`
 - `'BBBB'` gives `74`
+
+Request from OpenTable:
+Please identify who is submitting this fork - we cannot identify you from your github username.  Please either email jcatterfeld@opentable.com or add your name to the readme.
