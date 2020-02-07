@@ -2,9 +2,18 @@ CODE-KATA-Shopping-Cart
 
 This is a supermarket chekout program which takes in information from the user about the items that have been purchased and applies the discounts if there are any avaliable, adds everything up and prints the total sum to the terminal. The project was made using C++ 11.
 
-int countA, countB, countC, countD, total; This line of code is for declaration of all ints
+```C++
+int countA, countB, countC, countD, total;
+```
 
-cin >> input; Takes in a value entered by the user and assigns it to the string called input.
+This line of code is for declaration of all ints
+
+```C++
+cin >> input;
+```
+
+Takes in a value entered by the user and assigns it to the string called input.
+
 ```C++
 for (int i = 0; i < input.size(); i++) {
     if (input[i] == 'A' || input[i] == 'a') {
