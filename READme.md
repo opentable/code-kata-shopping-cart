@@ -24,7 +24,7 @@ The next step is to count how many items of each type are in the list
 ```
 
 # Determine discounts & Counting total
-Applying discount for every 3 A items, and every 2 B items
+Applying discount for every 3 A items, and every 2 B items. Counting total
 ```C++
 total += (( CountA%3 ) * 50 ) + (( CountA/3 ) * 130 );
 total += (( CountB%2 ) * 30) + ((CountB/2) * 37);
